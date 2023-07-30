@@ -11,7 +11,8 @@ import torch
 from detectron2.data import detection_utils as utils
 from detectron2.data import transforms as T
 
-from layoutlmft import LayoutLMv3Tokenizer
+# from layoutlmft import LayoutLMv3Tokenizer
+from transformers.models.layoutlmv3.tokenization_layoutlmv3 import LayoutLMv3Tokenizer
 
 __all__ = ["DetrDatasetMapper"]
 
